@@ -1,0 +1,40 @@
+{
+	"name": "fhl-game-rts",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@fluidframework/aqueduct": "2.0.0-rc.1.0.4",
+		"@fluidframework/azure-client": "2.0.0-rc.1.0.4",
+		"@fluidframework/core-interfaces": "2.0.0-rc.1.0.4",
+		"@fluidframework/counter": "2.0.0-rc.1.0.4",
+		"@fluidframework/runtime-definitions": "2.0.0-rc.1.0.4",
+		"@fluidframework/shared-object-base": "2.0.0-rc.1.0.4",
+		"@fluidframework/tinylicious-client": "2.0.0-rc.1.0.4",
+		"@pixi/react": "^7.1.0",
+		"fluid-framework": "2.0.0-rc.1.0.4",
+		"pixi.js": "^7.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"uuid": "^9.0.0",
+		"vite": "^5.1.6"
+	},
+	"scripts": {
+		"start": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview",
+		"start:tinylicious": "tinylicious"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react-swc": "^3.6.0",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^18.17.1",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
+		"@types/uuid": "^9.0.1",
+		"prettier": "~3.0.3",
+		"tinylicious": "^4.0.0",
+		"typescript": "~5.2.2",
+		"vite-plugin-svgr": "^4.2.0",
+		"vite-tsconfig-paths": "^4.3.1"
+	}
+}
